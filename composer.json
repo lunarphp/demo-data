@@ -1,0 +1,18 @@
+{
+    "name": "lunarphp/demo-data",
+    "description": "Demo Data for LunarPHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lunar\\DemoData\\": "src/",
+            "Lunar\\DemoData\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "lunarphp/core": "dev-main"
+    },
+    "require-dev": {
+        "laravel/pint": "1.12"
+    }
+}
