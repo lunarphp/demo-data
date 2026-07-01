@@ -1,6 +1,7 @@
-.DS_Store
-.phpunit.result.cache
-/.idea
-/.vscode
 /vendor
 composer.lock
+.phpunit.result.cache
+.env
+**/.DS_Store
+/.idea
+/.vscode
